@@ -1,0 +1,25 @@
+.main-nav ul {
+
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    background-color: green; /* Sets a green background */
+}
+
+.main-nav li {
+    padding: 10px 15px; /* Adds space inside each item */
+    margin-bottom: 5px; /* Adds space between items */
+    color: white; /* Makes the text white */
+    cursor: pointer; /* Changes the cursor on hover */
+}
+
+.main-nav li:hover {
+    background-color: darkgreen; /* Changes background color on hover */
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
